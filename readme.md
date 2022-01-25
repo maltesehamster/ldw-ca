@@ -6,10 +6,14 @@ A web application that calculates a golfer's handicap based off of supplied cour
 * platform: heroku
 # local development
 Start server:
-  heroku local
-at app root
+```
+heroku local
+```
+at app root;
 config vars in .env
 
 Start client:
-  npm start
+```
+npm start
+```
 in /react-ui
