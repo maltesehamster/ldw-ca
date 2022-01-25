@@ -1,0 +1,33 @@
+{
+  "name": "indebtd",
+  "version": "3.0.0",
+  "description": "Indebtd: How much do you owe?",
+  "engines": {
+    "node": "10.x"
+  },
+  "scripts": {
+    "start": "node server",
+    "build": "cd react-ui/ && npm install && npm run build"
+  },
+  "cacheDirectories": [
+    "node_modules",
+    "react-ui/node_modules"
+  ],
+  "dependencies": {
+    "connection-string-parser": "^1.0.3",
+    "express": "^4.16.4",
+    "mysql": "^2.18.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.heroku.com/ldw-ca.git"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "create-react-app",
+    "react"
+  ],
+  "license": "MIT",
+  "devDependencies": {}
+}

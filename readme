@@ -1,0 +1,8 @@
+Start server:
+  heroku local
+at app root
+config vars in .env
+
+Start client:
+  npm start
+in /react-ui

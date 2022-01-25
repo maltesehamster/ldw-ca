@@ -1,0 +1,23 @@
+.header {
+    display: flex;
+}
+
+.icon {
+    background: url(/logo-128.png);
+    background-size: 64px 64px;
+    height: 64px;
+    width: 64px;
+}
+
+.title {
+    flex: 1;
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+    width: 50%;
+}
+
+.menu-container {
+    height: 64px;
+    width: 64px;
+}
