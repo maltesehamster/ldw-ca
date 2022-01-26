@@ -1,5 +1,5 @@
 # ldw-ca
-A web application that calculates a golfer's handicap based off of supplied course and round data.
+A web application that keeps track of the monies owed between various parties.
 # tech
 * front end: react
 * back end: nodejs
